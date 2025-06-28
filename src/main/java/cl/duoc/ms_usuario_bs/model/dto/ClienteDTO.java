@@ -12,17 +12,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class ClienteDTO {
-
-    private Long id;
-
+    private Long id_cliente;
     private String nombre;
-
     private String contrasena;
-
     private String direccion;
-
     private String email;
-
     private String telefono;
 }
 
